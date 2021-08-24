@@ -2,7 +2,7 @@
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/brand/white.png" alt="logo">
+                <router-link to="/profile" class="titulo">Carlos Nascimento</router-link><!-- <img src="" alt=""> -->
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
@@ -50,12 +50,12 @@
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Examples</span>
+                        <span class="nav-link-inner--text">Contato</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Landing</router-link>
-                    <router-link to="/profile" class="dropdown-item">Profile</router-link>
-                    <router-link to="/login" class="dropdown-item">Login</router-link>
-                    <router-link to="/register" class="dropdown-item">Register</router-link>
+                    <router-link to="/landing" class="dropdown-item">Whatsapp</router-link>
+                    <router-link to="/profile" class="dropdown-item">Telegram</router-link>
+                    <router-link to="/login" class="dropdown-item">Email</router-link>
+                    <!-- <router-link to="/register" class="dropdown-item">Register</router-link> -->
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -87,7 +87,7 @@
                         <span class="nav-link-inner--text d-lg-none">Github</span>
                     </a>
                 </li>
-                <li class="nav-item d-none d-lg-block ml-lg-4">
+                <!-- <li class="nav-item d-none d-lg-block ml-lg-4">
                     <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
@@ -95,7 +95,7 @@
                 </span>
                         <span class="nav-link-inner--text">Download</span>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </base-nav>
     </header>
@@ -114,4 +114,9 @@ export default {
 };
 </script>
 <style>
+
+.titulo{
+    color: beige;
+    
+}
 </style>

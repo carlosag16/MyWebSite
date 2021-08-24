@@ -47,12 +47,12 @@
                             </div>
                         </div>
                         <div class="text-center mt-5">
-                            <h3>Jessica Jones
-                                <span class="font-weight-light">, 27</span>
+                            <h3>Carlos Nascimento
+                                <span class="font-weight-light">,</span>
                             </h3>
-                            <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Bucharest, Romania</div>
-                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Solution Manager - Creative Tim Officer</div>
-                            <div><i class="ni education_hat mr-2"></i>University of Computer Science</div>
+                            <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Belém, Brasil</div>
+                            <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Desenvolvedor Web</div>
+                            <div><i class="ni education_hat mr-2"></i>Engenharia da computação - UFPA</div>
                         </div>
                         <div class="mt-5 py-5 border-top text-center">
                             <div class="row justify-content-center">
