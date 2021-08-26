@@ -5,7 +5,7 @@
                 <div class="col-md-6 mb-5 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
                         <router-link to="/landing" title="Landing Page">
-                            <img v-lazy="'img/theme/landing.jpg'" class="card-img">
+                            <img v-lazy="'img/theme/MargarethMaroto.jpg'" class="card-img">
                         </router-link>
                     </div>
                 </div>
