@@ -14,7 +14,7 @@ export default new Router({
   linkExactActiveClass: "active",
   routes: [
     {
-      path: "/",
+      path: "/components",
       name: "components",
       components: {
         header: AppHeader,
@@ -50,7 +50,7 @@ export default new Router({
       }
     },
     {
-      path: "/profile",
+      path: "/",
       name: "profile",
       components: {
         header: AppHeader,
