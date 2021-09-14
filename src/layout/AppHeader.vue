@@ -52,32 +52,32 @@
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Contato</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Whatsapp</router-link>
-                    <router-link to="/profile" class="dropdown-item">Telegram</router-link>
-                    <router-link to="/login" class="dropdown-item">Email</router-link>
+                    <a href="https://api.whatsapp.com/send?phone=91984245341&text=Entre em contato com Carlos Augusto" class="dropdown-item">Whatsapp</a>
+                    <a href="https://t.me/@carlosag16" class="dropdown-item">Telegram</a>
+                    <a href="mailto:carlos.augusto_pa@hotmail.com" class="dropdown-item">Email</a>
                     <!-- <router-link to="/register" class="dropdown-item">Register</router-link> -->
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" target="_blank" rel="noopener"
                        data-toggle="tooltip" title="Like us on Facebook">
                         <i class="fa fa-facebook-square"></i>
                         <span class="nav-link-inner--text d-lg-none">Facebook</span>
                     </a>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial"
-                       target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
+                    <a class="nav-link nav-link-icon" href="https://www.instagram.com/carlosaugusto_/"
+                       target="_blank" rel="noopener" data-toggle="tooltip" title="Me siga no instagram">
                         <i class="fa fa-instagram"></i>
                         <span class="nav-link-inner--text d-lg-none">Instagram</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" rel="noopener"
-                       data-toggle="tooltip" title="Follow us on Twitter">
+                    <a class="nav-link nav-link-icon" href="https://www.linkedin.com/in/CarlosAgANascimento" target="_blank" rel="noopener"
+                       data-toggle="tooltip" title="Acesse meu perfil">
                         <i class="fa fa-linkedin-square"></i>
-                        <span class="nav-link-inner--text d-lg-none">Twitter</span>
+                        <span class="nav-link-inner--text d-lg-none">Linledin</span>
                     </a>
                 </li>
                 <li class="nav-item">
