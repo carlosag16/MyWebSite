@@ -1,21 +1,22 @@
 <template>
     <footer class="footer has-cards">
         <div class="container container-lg">
-            <div class="row">
-                <div class="col-md-6 mb-5 mb-md-0">
-                    <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
-                            <img v-lazy="'img/theme/MargarethMaroto.jpg'" class="card-img">
-                        </router-link>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 mb-lg-0">
-                    <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/profile" title="Profile Page">
-                            <img v-lazy="'img/theme/cadastro.jpg'" class="card-img">
-                        </router-link>
-                    </div>
-                </div>
+            
+            <div class="row carroCeu">
+                
+                <!-- <div class="col-md-6 mb-5 mb-md-0"> -->
+                    <!-- <div class="card card-lift--hover shadow border-0"> -->
+                        <b-carousel id="carousel1"
+                                    controls
+                                    indicators
+                                    
+                                    :interval="4000">
+                            <!-- Text slides with image -->
+                            <b-carousel-slide img-src="img/theme/cadastro.jpg"><h4>Cadastro Bibliotca Central - UFPA </h4></b-carousel-slide>
+                            <b-carousel-slide  img-src="img/theme/MargarethMaroto.jpg">vbbvjwvhwievhuiwevh</b-carousel-slide>
+                        </b-carousel>
+                    <!-- </div> -->
+                <!-- </div> -->
             </div>
         </div>
         <div class="container">
@@ -78,14 +79,26 @@
     </footer>
 </template>
 <script>
+import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
+import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
 export default {
   name: 'app-footer',
   data() {
     return {
       year: new Date().getFullYear()
     }
+  },
+  components: {
+    BCarousel,
+    BCarouselSlide
   }
 };
 </script>
 <style>
+.carroCeu{
+    /* width: 600px;
+    height: 700px; */
+    padding: 1%;
+    
+}
 </style>

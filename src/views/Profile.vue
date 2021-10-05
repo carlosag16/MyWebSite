@@ -18,34 +18,37 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-3 order-lg-2">
                                 <div class="card-profile-image">
-                                    <a href="#">
+                                    <router-link to="/">
                                         <img v-lazy="'img/theme/carlos.jpg'" class="rounded-circle">
-                                    </a>
+                                    </router-link>
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                                 <div class="card-profile-actions py-4 mt-lg-0">
-                                    <base-button type="info" size="sm" class="mr-4">Connect</base-button>
+                                    <!-- <base-button type="info" size="sm" class="mr-4">Connect</base-button> -->
                                     <base-button type="default" size="sm" class="float-right">Message</base-button>
                                 </div>
                             </div>
                             <div class="col-lg-4 order-lg-1">
                                 <div class="card-profile-stats d-flex justify-content-center">
                                     <div>
-                                        <span class="heading">22</span>
-                                        <span class="description">Friends</span>
+                                        <router-link to="/#meus">
+                                        <span class="heading">5</span>
+                                        <span class="description" style="color: #000">Projetos</span>
+                                        </router-link>
                                     </div>
-                                    <div>
+                                    <!-- <div>
                                         <span class="heading">10</span>
                                         <span class="description">Photos</span>
                                     </div>
                                     <div>
                                         <span class="heading">89</span>
                                         <span class="description">Comments</span>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
+                        <br>
                         <div class="text-center mt-5">
                             <h3>Carlos Nascimento
                                 <span class="font-weight-light">,</span>
@@ -58,18 +61,40 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-9">
                                     <p>An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.</p>
-                                    <a href="#">Show more</a>
                                 </div>
                             </div>
+                            <split-carousel>
+                                <split-carousel-item >
+                                    <b-img src="img/theme/download.png" fluid alt="Responsive image"></b-img>
+                                </split-carousel-item>
+                            </split-carousel>
                         </div>
+                        
                     </div>
                 </card>
+                
             </div>
+            
         </section>
+        <h1 class="tiitulo" id="meus">Meus projetos</h1>
     </div>
 </template>
 <script>
-export default {};
+
+import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
+import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+
+export default {
+  components: { 
+    BCarousel,
+    BCarouselSlide,
+    
+  },
+  };
 </script>
 <style>
+.tiitulo{
+    text-align: center;
+    color: #8b008b;
+}
 </style>
